@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "email": "seb@Test.be",
+      "password": "$2a$10$cHXZO.QfrAqTj0EiW6LZk.yB8DKLyRgMto4jsN6AvRSKA.q.lwYCO",
+      "id": 1
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "l'art de la guèrre",
+      "author": "Sun tzu"
+    },
+    {
+      "id": 2,
+      "title": "Les Misérables",
+      "author": "Victor Hugo"
+    },
+    {
+      "id": 3,
+      "title": "Crime et Châtiment",
+      "author": "Fiodor Dostoïevski"
+    },
+    {
+      "title": "Orgueil et Préjugés",
+      "author": "Jane Austen",
+      "id": 4
+    },
+    {
+      "title": "Cent ans de solitude",
+      "author": "Gabriel García Márquez",
+      "id": 5
+    }
+  ]
+}
