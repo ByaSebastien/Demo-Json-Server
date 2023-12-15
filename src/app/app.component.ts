@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {BookService} from "./services/book.service";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demo-Json-Server';
+
+  books! : any[];
+
+  constructor(
+    private readonly _bookService: BookService
+  ) {
+    this._bookService.get().subscribe((data : any) => this.books = data)
+  }
 }
